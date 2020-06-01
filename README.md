@@ -4,3 +4,5 @@ Translation of english language file of store and admin to Slovenian language (s
 work still in progress
 
 Based on original zen-cart english language file 
+
+https://www.zen-cart.com
