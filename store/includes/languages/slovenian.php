@@ -50,8 +50,8 @@
   define('FOOTER_TEXT_REQUESTS_SINCE', 'zahtevkov od');
 
 // Define the name of your Gift Certificate as Gift Voucher, Gift Certificate, Zen Cart Dollars, etc. here for use through out the shop
-  define('TEXT_GV_NAME','Bon');
-  define('TEXT_GV_NAMES','Bon');
+  define('TEXT_GV_NAME','Darilni bon');
+  define('TEXT_GV_NAMES','Darilni bon');
 
 // used for redeem code, redemption code, or redemption id
   define('TEXT_GV_REDEEM','Koda za popust');
