@@ -7,18 +7,18 @@
  * @version $Id: page_not_found.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Page Not Found');
-define('HEADING_TITLE', 'Page Not Found');
+define('NAVBAR_TITLE', 'Stran ni najdena');
+define('HEADING_TITLE', 'Stran ni najdena');
 define('TEXT_INFORMATION', '');
-define('PAGE_ACCOUNT', 'My Account');
-define('PAGE_ACCOUNT_EDIT', 'Account Information');
-define('PAGE_ADDRESS_BOOK', 'Address Book');
-define('PAGE_ACCOUNT_HISTORY', 'Order History');
-define('PAGE_ACCOUNT_NOTIFICATIONS', 'Newsletter Subscriptions');
-define('PAGE_SHOPPING_CART', 'Shopping Cart');
-define('PAGE_CHECKOUT_SHIPPING', 'Checkout');
-define('PAGE_ADVANCED_SEARCH', 'Advanced Search');
-define('PAGE_PRODUCTS_NEW', 'New Products');
-define('PAGE_SPECIALS', 'Specials');
-define('PAGE_REVIEWS', 'Reviews');
+define('PAGE_ACCOUNT', 'Moj račun');
+define('PAGE_ACCOUNT_EDIT', 'Informacije o računu');
+define('PAGE_ADDRESS_BOOK', 'Naslovi');
+define('PAGE_ACCOUNT_HISTORY', 'Zgodovina naročil');
+define('PAGE_ACCOUNT_NOTIFICATIONS', 'Prijava na naše novice');
+define('PAGE_SHOPPING_CART', 'Košarica');
+define('PAGE_CHECKOUT_SHIPPING', 'Nakup');
+define('PAGE_ADVANCED_SEARCH', 'Napredno iskanje');
+define('PAGE_PRODUCTS_NEW', 'Novi izdelki');
+define('PAGE_SPECIALS', 'Izdelki v akciji');
+define('PAGE_REVIEWS', 'Mnenja');
 ?>

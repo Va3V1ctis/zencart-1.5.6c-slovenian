@@ -20,8 +20,8 @@
 // $Id: popup_search_help.php 2471 2005-11-29 01:14:18Z drbyte $
 //
 
-define('HEADING_SEARCH_HELP', 'Search Help');
-define('TEXT_SEARCH_HELP', 'Keywords may be separated by AND and/or OR statements for greater control of the search results.<br /><br />For example, <span style="text-decoration:underline;">Microsoft AND mouse</span> would generate a result set that contain both words. However, for <u>mouse OR keyboard</u>, the result set returned would contain both or either words.<br /><br />Exact matches can be searched for by enclosing keywords in double-quotes.<br /><br />For example, <span style="text-decoration:underline">"notebook computer"</span> would generate a result set which match the exact string.<br /><br />Brackets can be used for further control on the result set.<br /><br />For example, <span style="text-decoration:underline;">Microsoft and (keyboard or mouse or "visual basic")</span>.');
-define('TEXT_CLOSE_WINDOW', '<span class="pseudolink">Close Window</span> [x]');
+define('HEADING_SEARCH_HELP', 'Pomoč pri iskanju');
+define('TEXT_SEARCH_HELP', 'Uporabljate lahko AND in/ali OR operatorja za bolj podrobno iskanje.<br /><br />Kot primer, <span style="text-decoration:underline;">Microsoft AND miška</span> prikaže vse rezultate, ki vsebujejo Microsoft in mišja. V primeru, da uporabite <u>miška OR tipkovnica</u>, ki prikazujejo vse rezultate, ki imajo v imenu ali opisu "miška" ali "tipkovnica".<br /><br />V primeru, da želite samo specifične rezultate lahko uporabite narekovaje.<br /><br />Kot primer, <span style="text-decoration:underline">"apple računalnik"</span>, bo prikazalo samo rezulate, kjer je omenjena besedna zaveza apple računalnik.<br /><br />Lahko uporabite tudi oklepaje za bolj podrobno iskanje.<br /><br />Kot primer, <span style="text-decoration:underline;">Microsoft AND (tipkovnica OR miška OR "Visual code editor")</span>.');
+define('TEXT_CLOSE_WINDOW', '<span class="pseudolink">Zapri okno</span> [x]');
 
 ?>

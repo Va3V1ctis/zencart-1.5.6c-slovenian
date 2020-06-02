@@ -31,18 +31,18 @@ define('OTHER_IMAGE_REVIEWS_RATING_STARS_ONE', 'stars_1_small.gif');
  * ALT tags for other images
  */
 
-define('OTHER_BOX_NOTIFY_REMOVE_ALT', 'Remove this product notification.');
-define('OTHER_BOX_NOTIFY_YES_ALT', 'Notify me of updates to this product.');
-define('OTHER_BOX_WRITE_REVIEW_ALT', 'Write a review on this product.');
-define('OTHER_CALL_FOR_PRICE_ALT', 'Please Call for the Current Price.');
-define('OTHER_DOWN_FOR_MAINTENANCE_ALT', 'The site is currently down for maintenance. Please come back later.');
+define('OTHER_BOX_NOTIFY_REMOVE_ALT', 'Odstrani informacije o tem izdelku.');
+define('OTHER_BOX_NOTIFY_YES_ALT', 'Obveščaj me o tem izdelku.');
+define('OTHER_BOX_WRITE_REVIEW_ALT', 'Napišite mnenje o tem izdelku.');
+define('OTHER_CALL_FOR_PRICE_ALT', 'Prosimo pokličite za ceno.');
+define('OTHER_DOWN_FOR_MAINTENANCE_ALT', 'Stran se trenutno posodablja, poskusite znova čez nekaj minut.');
 define('OTHER_TRANPARENT_ALT', '');
-define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION_ALT', 'CUSTOMER APPROVAL IS PENDING ...');
-define('OTHER_REVIEWS_RATING_STARS_FIVE_ALT', 'Five Stars');
-define('OTHER_REVIEWS_RATING_STARS_FOUR_ALT', 'Four Stars');
-define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', 'Three Stars');
-define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', 'Two Stars');
-define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', 'One Star');
+define('OTHER_IMAGE_CUSTOMERS_AUTHORIZATION_ALT', 'ČAKA SE ODOBRITEV STRANKE...');
+define('OTHER_REVIEWS_RATING_STARS_FIVE_ALT', 'Pet zvezdic');
+define('OTHER_REVIEWS_RATING_STARS_FOUR_ALT', 'Štiri zvezdice');
+define('OTHER_REVIEWS_RATING_STARS_THREE_ALT', 'Tri zvezdice');
+define('OTHER_REVIEWS_RATING_STARS_TWO_ALT', 'Dve zvezdici');
+define('OTHER_REVIEWS_RATING_STARS_ONE_ALT', 'Ena zvezdica');
 //define('OTHER_xxx_ALT', '');
 
 ?>

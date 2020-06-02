@@ -20,8 +20,8 @@
 // $Id: page_2.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Page 2');
-define('HEADING_TITLE', 'Page 2');
+define('NAVBAR_TITLE', 'Stran 2');
+define('HEADING_TITLE', 'Stran 2');
 
-define('TEXT_INFORMATION', 'Page 2 information goes here.');
+define('TEXT_INFORMATION', '');
 ?>

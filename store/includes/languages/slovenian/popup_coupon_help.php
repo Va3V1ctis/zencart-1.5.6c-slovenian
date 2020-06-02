@@ -7,30 +7,30 @@
  * @version $Id: DrByte 2019 May 25 Modified in v1.5.6b $
  */
 
-define('HEADING_COUPON_HELP', 'Discount Coupon Help');
-define('TEXT_CLOSE_WINDOW', 'Close Window [x]');
-define('TEXT_COUPON_HELP_HEADER', '<strong>The Discount Coupon Redemption Code you have entered is for</strong> ');
-define('TEXT_COUPON_HELP_NAME', '<br /><br />Coupon Name : %s');
-define('TEXT_COUPON_HELP_FIXED', '<br /><br />The coupon is worth %s discount against your order');
-define('TEXT_COUPON_HELP_MINORDER', '<br /><br />You need to spend %s to use this coupon');
-define('TEXT_COUPON_HELP_FREESHIP', '<br /><br />This coupon gives you free shipping on your order');
-define('TEXT_COUPON_HELP_DESC', '<br /><br />Coupon Description : %s');
-define('TEXT_COUPON_HELP_DATE', '<br /><br />The coupon is valid between %s and %s');
-define('TEXT_COUPON_HELP_RESTRICT', '<br /><br />Product/Category Restrictions');
-define('TEXT_COUPON_HELP_CATEGORIES', 'Category');
-define('TEXT_COUPON_HELP_PRODUCTS', 'Product');
-define('TEXT_ALLOW', 'Allow');
-define('TEXT_DENY', 'Deny');
+define('HEADING_COUPON_HELP', 'Pomoč pri kodah za popust');
+define('TEXT_CLOSE_WINDOW', 'Zapri okno [x]');
+define('TEXT_COUPON_HELP_HEADER', '<strong>Koda za popust velja za</strong> ');
+define('TEXT_COUPON_HELP_NAME', '<br /><br />Ime kode za popust : %s');
+define('TEXT_COUPON_HELP_FIXED', '<br /><br />Koda je v višini %s popusta za vaše naročilo');
+define('TEXT_COUPON_HELP_MINORDER', '<br /><br />Potrošiti morate vsaj %s za uporabo te kode za popust');
+define('TEXT_COUPON_HELP_FREESHIP', '<br /><br />Koda za popust omogoča zastonj pošiljanje.');
+define('TEXT_COUPON_HELP_DESC', '<br /><br />Opis kode za popust : %s');
+define('TEXT_COUPON_HELP_DATE', '<br /><br />Koda za popust je veljavna od %s do %s');
+define('TEXT_COUPON_HELP_RESTRICT', '<br /><br />Omejitve za Izdelek/Kategorijo');
+define('TEXT_COUPON_HELP_CATEGORIES', 'Kategorija');
+define('TEXT_COUPON_HELP_PRODUCTS', 'Izdelek');
+define('TEXT_ALLOW', 'Dovoli');
+define('TEXT_DENY', 'Zavrni');
 
-define('TEXT_ALLOWED', ' (Allowed)');
-define('TEXT_DENIED', ' (Denied)');
+define('TEXT_ALLOWED', ' (Dovoljeno)');
+define('TEXT_DENIED', ' (Zavrnjeno)');
 
-define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>This coupon has specific Product Restrictions.</p>');
-define('TEXT_NO_CAT_RESTRICTIONS', '<p>This coupon is valid for all categories.</p>');
-define('TEXT_NO_PROD_RESTRICTIONS', '<p>This coupon is valid for all products.</p>');
-define('TEXT_NO_PROD_SALES', '<p>This coupon is not valid for products on sale.</p>');
+define('TEXT_NO_CAT_TOP_ONLY_DENY', '<p>Ta koda za popust ni za vse kategorije.</p>');
+define('TEXT_NO_CAT_RESTRICTIONS', '<p>Ta koda za popust velja za vse kategorije.</p>');
+define('TEXT_NO_PROD_RESTRICTIONS', '<p>Ta koda za popust velja za vse izdelke.</p>');
+define('TEXT_NO_PROD_SALES', '<p>Koda za popust ne velja za izdelke v akciji.</p>');
 
 // gift certificates cannot be purchased with Discount Coupons
-define('TEXT_COUPON_GV_RESTRICTION','Discount Coupons may not be applied towards the purchase of ' . TEXT_GV_NAMES . '.');
+define('TEXT_COUPON_GV_RESTRICTION','Koda za popust ni veljavna za nakup ' . TEXT_GV_NAMES . '.');
 
-define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Billing Address Restrictions apply.');
+define('TEXT_COUPON_GV_RESTRICTION_ZONES', 'Določene omejitve pri nakupu.');

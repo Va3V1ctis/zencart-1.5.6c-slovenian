@@ -20,18 +20,16 @@
 // $Id: popup_cvv_help.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('HEADING_CVV', 'What is CVV?');
-define('TEXT_CVV_HELP1', 'Visa, Mastercard, Discover 3 Digit Card Verification Number<br /><br />
-                    For your safety and security, we require that you enter your card\'s verification number.<br /><br />
-                    The verification number is a 3-digit number printed on the back of your card.
-                    It appears after and to the right of your card number.<br />' .
+define('HEADING_CVV', 'Kaj je CVV?');
+define('TEXT_CVV_HELP1', 'Visa, Mastercard, Discover 3 številčna koda za verifikacijo<br /><br />
+                    Vnesti morate CVV kodo za vašo varnost.<br /><br />
+                    Kodo CVV lahko najdete na drugi strani vaše kreditne kartice.<br />' .
                     zen_image(DIR_WS_TEMPLATE_ICONS . 'cvv2visa.gif'));
 
-define('TEXT_CVV_HELP2', 'American Express 4 Digit Card Verification Number<br /><br />
-                    For your safety and security, we require that you enter your card\'s verification number.<br /><br />
-                    The American Express verification number is a 4-digit number printed on the front of your card.
-                    It appears after and to the right of your card number.<br />' .
+define('TEXT_CVV_HELP2', 'American Express 4 številčna koda za verifikacijo<br /><br />
+                    Vnesti morate CVV kodo za vašo varnost.<br /><br />
+                    Kodo CVV lahko najdete na sprednji strani vaše kreditne kartice.<br />' .
                     zen_image(DIR_WS_TEMPLATE_ICONS . 'cvv2amex.gif'));
 
-define('TEXT_CLOSE_CVV_WINDOW', 'Close Window [x]');
+define('TEXT_CLOSE_CVV_WINDOW', 'Zapri okno [x]');
 ?>
