@@ -21,10 +21,10 @@
 // $Id: down_for_maintenance.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Down for Maintenance');
-define('HEADING_TITLE', 'Down for Maintenance ...');
-define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', 'The site is currently down for maintenance. Please excuse the dust, and try back later.');
-define('TEXT_MAINTENANCE_ON_AT_TIME', 'The Admin / Webmaster has enabled maintenance at : ');
-define('TEXT_MAINTENANCE_PERIOD', 'Maintenance period: ');
-define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', 'To verify the site status ... Click here:');
+define('NAVBAR_TITLE', 'Stran se posodablja');
+define('HEADING_TITLE', 'Stran se posodablja ...');
+define('DOWN_FOR_MAINTENANCE_TEXT_INFORMATION', 'Stran se posodablja in bo kmalu spet dosegljiva.');
+define('TEXT_MAINTENANCE_ON_AT_TIME', 'Stran se bo posodobila : ');
+define('TEXT_MAINTENANCE_PERIOD', 'Čas posodobitve: ');
+define('DOWN_FOR_MAINTENANCE_STATUS_TEXT', 'Če želite ponovno preveriti, če je stvar dosegljiva:');
 ?>

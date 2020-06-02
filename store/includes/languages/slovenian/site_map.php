@@ -14,7 +14,7 @@ define('TEXT_INFORMATION','');
 define('PAGE_ACCOUNT', 'Moj račun');
 define('PAGE_ACCOUNT_EDIT', 'Informacije o računu');
 define('PAGE_ADDRESS_BOOK', 'Naslovi');
-define('PAGE_ACCOUNT_HISTORY', 'Zgodovina naročil);
+define('PAGE_ACCOUNT_HISTORY', 'Zgodovina naročil');
 define('PAGE_ACCOUNT_NOTIFICATIONS', 'Prijava na naše novice');
 define('PAGE_SHOPPING_CART', 'Košarica');
 define('PAGE_CHECKOUT_SHIPPING', 'Nakup');

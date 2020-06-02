@@ -20,8 +20,8 @@
 // $Id: customers_authorization.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Customers Authorization Pending');
-define('HEADING_TITLE', 'Customer Authorization Pending ...');
-define('CUSTOMERS_AUTHORIZATION_TEXT_INFORMATION', 'Thank you for requesting Authorization for our store.<br /><br />We will contact you as soon as possible.');
-define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', 'To verify your Authorization status ... Click here:');
+define('NAVBAR_TITLE', 'Čaka se potrdilo stranke');
+define('HEADING_TITLE', 'Čaka se potrdilo stranke ...');
+define('CUSTOMERS_AUTHORIZATION_TEXT_INFORMATION', 'Hvala za potrditev stranke.<br /><br />Obvestili vas bomo kmalu.');
+define('CUSTOMERS_AUTHORIZATION_STATUS_TEXT', 'Da bi preverili vaš status ... Kliknite tukaj:');
 ?>

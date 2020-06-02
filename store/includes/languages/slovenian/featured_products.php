@@ -20,15 +20,15 @@
 // $Id: featured_products.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Featured Products');
-define('HEADING_TITLE', 'Featured Products');
+define('NAVBAR_TITLE', 'Izpostavljeni izdelki');
+define('HEADING_TITLE', 'Izpostavljeni izdelki');
 
-define('TEXT_DATE_ADDED', 'Date Added:');
-define('TEXT_MANUFACTURER', 'Manufacturer:');
-define('TEXT_PRICE', 'Price:');
+define('TEXT_DATE_ADDED', 'Dodano:');
+define('TEXT_MANUFACTURER', 'Proizvajalec:');
+define('TEXT_PRICE', 'Cena:');
 
 define('TEXT_PRODUCTS_MODEL','Model: ');
-define('TEXT_PRODUCTS_WEIGHT','Weight: ');
-define('TEXT_PRODUCTS_QUANTITY','In Stock: ');
-define('TEXT_OUT_OF_STOCK','Out of Stock');
+define('TEXT_PRODUCTS_WEIGHT','Teža: ');
+define('TEXT_PRODUCTS_QUANTITY','V zalogi: ');
+define('TEXT_OUT_OF_STOCK','Ni na zalogi');
 ?>

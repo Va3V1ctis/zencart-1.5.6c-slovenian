@@ -7,37 +7,37 @@
  * @version $Id: document_product_info.php 6371 2007-05-25 19:55:59Z ajeh $
  */
 
-define('TEXT_PRODUCT_NOT_FOUND', 'Sorry, the product was not found.');
-define('TEXT_CURRENT_REVIEWS', 'Current Reviews:');
-define('TEXT_MORE_INFORMATION', 'For more information, please visit this product\'s <a href="%s" target="_blank">webpage</a>.');
-define('TEXT_DATE_ADDED', 'This product was added to our catalog on %s.');
-define('TEXT_DATE_AVAILABLE', 'This product will be in stock on %s.');
-define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Customers who bought this product also purchased...');
-define('TEXT_PRODUCT_OPTIONS', 'Please Choose: ');
-define('TEXT_PRODUCT_MANUFACTURER', 'Manufactured by: ');
-define('TEXT_PRODUCT_WEIGHT', 'Shipping Weight: ');
-define('TEXT_PRODUCT_QUANTITY', ' Units in Stock');
+define('TEXT_PRODUCT_NOT_FOUND', 'Na žalost izdelek ni bil najden.');
+define('TEXT_CURRENT_REVIEWS', 'Mnenja o izdelku:');
+define('TEXT_MORE_INFORMATION', 'Za več infomacij o izdelku, pojdite na <a href="%s" target="_blank">spletno stran izdelka</a>.');
+define('TEXT_DATE_ADDED', 'Izdelek je bil dodan %s.');
+define('TEXT_DATE_AVAILABLE', 'Izdelek bo na voljo %s.');
+define('TEXT_ALSO_PURCHASED_PRODUCTS', 'Kupci so kupili tudi...');
+define('TEXT_PRODUCT_OPTIONS', 'Prosimo izberite: ');
+define('TEXT_PRODUCT_MANUFACTURER', 'Izdelal: ');
+define('TEXT_PRODUCT_WEIGHT', 'Teže pošiljke: ');
+define('TEXT_PRODUCT_QUANTITY', ' enot na zalogi');
 define('TEXT_PRODUCT_MODEL', 'Model: ');
 
 
 
 // previous next product
-define('PREV_NEXT_PRODUCT', 'Product ');
-define('PREV_NEXT_FROM', ' from ');
-define('IMAGE_BUTTON_PREVIOUS','Previous Item');
-define('IMAGE_BUTTON_NEXT','Next Item');
-define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST','Back to Product List');
+define('PREV_NEXT_PRODUCT', 'Izdelek ');
+define('PREV_NEXT_FROM', ' od ');
+define('IMAGE_BUTTON_PREVIOUS','Prejšnji izdelek');
+define('IMAGE_BUTTON_NEXT','Naslednji izdelek');
+define('IMAGE_BUTTON_RETURN_TO_PRODUCT_LIST','Nazaj na listo izdelkov');
 
 // missing products
 //define('TABLE_HEADING_NEW_PRODUCTS', 'New Products For %s');
 //define('TABLE_HEADING_UPCOMING_PRODUCTS', 'Upcoming Products');
 //define('TABLE_HEADING_DATE_EXPECTED', 'Date Expected');
 
-define('TEXT_ATTRIBUTES_PRICE_WAS',' [was: ');
-define('TEXT_ATTRIBUTE_IS_FREE',' now is: Free]');
+define('TEXT_ATTRIBUTES_PRICE_WAS',' [je bila: ');
+define('TEXT_ATTRIBUTE_IS_FREE',' sedaj je: Zastonj]');
 define('TEXT_ONETIME_CHARGE_SYMBOL', ' *');
-define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' One time charges may apply');
-define('TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK','Quantity Discounts Available');
+define('TEXT_ONETIME_CHARGE_DESCRIPTION', ' Določeni enkratni strošli so možni');
+define('TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK','Količnski popust je na voljo');
 define('ATTRIBUTES_QTY_PRICE_SYMBOL', zen_image(DIR_WS_TEMPLATE_ICONS . 'icon_status_green.gif', TEXT_ATTRIBUTES_QTY_PRICE_HELP_LINK, 10, 10) . '&nbsp;');
 
 define('ATTRIBUTES_PRICE_DELIMITER_PREFIX', ' ( ');

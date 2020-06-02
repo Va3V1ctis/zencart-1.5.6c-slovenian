@@ -11,73 +11,51 @@ define('NAVBAR_TITLE', TEXT_GV_NAME . ' FAQ');
 define('HEADING_TITLE', TEXT_GV_NAME . ' FAQ');
 
 define('TEXT_INFORMATION', '<a name="Top"></a>
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Purchasing ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">How to send ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Buying with ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Redeeming ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">When problems occur</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Kako kupim ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">Kako pošljem ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Kako kupujem z ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Kako vnovčim ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">Imam težave z bonom</a><br />
 ');
 switch ($_GET['faq_item']) {
   case '1':
-define('SUB_HEADING_TITLE','Purchasing ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT', TEXT_GV_NAMES . ' are purchased just like any other item in our store. You can
-  pay for them using the store\'s standard payment method(s).
-  Once purchased the value of the ' . TEXT_GV_NAME . ' will be added to your own personal
-   ' . TEXT_GV_NAME . ' Balance. If you have funds in your ' . TEXT_GV_NAME . ' Balance, you will
-  notice that the amount now shows in the My Account page, and also provides a
-  link to a page where you can send the ' . TEXT_GV_NAME . ' to someone via email.');
+define('SUB_HEADING_TITLE','Kako kupim ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT', TEXT_GV_NAMES . ' lahko kupite enako kakor ostale izdelke v naši trgovini, uporabite lahko vse različne metode.
+       Ko boste kupili ' . TEXT_GV_NAME . ', bo dodan k vašemu
+       ' . TEXT_GV_NAME . ' stanju. Če že imate ' . TEXT_GV_NAME . ' stanje, videli boste, da je vaše stanje tudi v razdelku Moj račun, kjer je tudi link za pošiljanje ' . TEXT_GV_NAME . ' željeni osebi po e-mailu.');
   break;
   case '2':
-define('SUB_HEADING_TITLE','How to Send ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT','You may send a ' . TEXT_GV_NAME . ' from the My Account page. 
-  When you send a ' . TEXT_GV_NAME . ' you need to specify the following:
-  The name of the person to whom you are sending the ' . TEXT_GV_NAME . ';
-  The email address of the person to whom you are sending the ' . TEXT_GV_NAME . ';
-  The amount you want to send (Note you don\'t have to send the full amount that
-  is in your ' . TEXT_GV_NAME . ' Balance.);
-  An optional short message which will appear in the email;
-  Please ensure that you have entered all of the information correctly, although
-  you will be given the opportunity to change this as much as you want before
-  the email is actually sent.');
+define('SUB_HEADING_TITLE','Kako pošljem ' . TEXT_GV_NAMES);
+define('SUB_HEADING_TEXT','Pošljete lahko ' . TEXT_GV_NAME . ' v razdelku Moj račun.
+       Ko pošljete ' . TEXT_GV_NAME . ' morate vnesti naslednje podatke:
+       Ime osebe kateri pošiljate ' . TEXT_GV_NAME . ';
+       E-mail naslov osebe ' . TEXT_GV_NAME . ';
+       Znesek, ki ga pošiljate (lahko pošljete tudi samo del ' . TEXT_GV_NAME . ' zneska.);
+       Kratek opis bo avtomatično poslan preko e-maila;
+       Prosimo, da so ti podatki pravilni, lahko jih boste spremenili po svoji želji, predenj boste poslali darilni bon.');
   break;
   case '3':
-  define('SUB_HEADING_TITLE','Buying with ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT','If you have funds in your ' . TEXT_GV_NAME . ' Balance, you can use those funds to
-  purchase other items in our store. At the checkout stage an extra box will
-  appear showing your Balance. Enter the amount to apply from the funds in your ' . TEXT_GV_NAME . ' Balance.
-  Please note: you will still have to select another payment method if there
-  is not enough in your ' . TEXT_GV_NAME . ' Balance to cover the cost of your purchase.
-  If you have more funds in your ' . TEXT_GV_NAME . ' Balance than the total cost of
-  your purchase, the remaining balance will be left in your ' . TEXT_GV_NAME . ' Balance for 
-  future use.');
+  define('SUB_HEADING_TITLE','Kako kupujem z ' . TEXT_GV_NAMES);
+  define('SUB_HEADING_TEXT','V primeru, da imate dobrostanje na vašem ' . TEXT_GV_NAME . ', potem lahko uporabite za nakup to stanje.
+         Izberite vsoto ' . TEXT_GV_NAME . ' iz vašega stanja.
+         V primeru, da vsota ne bo dovolj, boste morali izbrati tudi plačilno metodo.
+         V primeru, da je vsota dobrostanja višja kot znesek nakupa, bo ostanek vrnjen na vaše stanje ' . TEXT_GV_NAME . '.');
   break;
   case '4':
-  define('SUB_HEADING_TITLE','Redeeming ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT','If you receive a ' . TEXT_GV_NAME . ' by email, it will contain details of who sent
-  you the ' . TEXT_GV_NAME . ', along with a short message from them. The email
-  will also contain the ' . TEXT_GV_NAME . ' ' . TEXT_GV_REDEEM . '. It is probably a good idea to print
-  out this email for future reference. You can now redeem the ' . TEXT_GV_NAME . ' in
-  one of two ways:<br /><br />
-  1. By clicking on the link contained within the email for this express purpose.
-  This will take you to the store\'s Redeem ' . TEXT_GV_NAME . ' page. You will then be requested
-  to create an account before the ' . TEXT_GV_NAME . ' is validated and placed in your
-   ' . TEXT_GV_NAME . ' Balance. You can then use the amount to purchase any item from our store.<br /><br />
-  2. During the checkout process on the same page that you select a payment method,
-there will be a box to enter a ' . TEXT_GV_REDEEM . '. Enter the ' . TEXT_GV_REDEEM . ' here, and
-click the Redeem button. The code will be
-validated and the amount added to your ' . TEXT_GV_NAME . ' Balance. You can then use the amount to purchase any item from our store.');
+  define('SUB_HEADING_TITLE','Kako vnovčim ' . TEXT_GV_NAMES);
+  define('SUB_HEADING_TEXT','Če ste dobili ' . TEXT_GV_NAME . ' preko e-mail, bo e-mail vseboval podatke o osebi, ki vam je poslala ' . TEXT_GV_NAME . ', skupaj s kratkim sporočilom.
+         Bon lahko uporabite na naši trgovini ali v celoti pri nakupu ali pa samo del. Ostanek bo ostal na bonu.
+         Prosimo, da e-mail spravite predenj opravite nakup na naši trgovini.');
   break;
   case '5':
-  define('SUB_HEADING_TITLE','When problems occur.');
-  define('SUB_HEADING_TEXT','For any queries regarding the ' . TEXT_GV_NAME . ' System, please contact the store
-  by email at '. STORE_OWNER_EMAIL_ADDRESS . '. Please make sure you give
-  as much information as possible regarding the issue so that we can fully address the problem.');
+  define('SUB_HEADING_TITLE','Imam težave z bonom.');
+  define('SUB_HEADING_TEXT','Glede vprašanj z bonom ' . TEXT_GV_NAME . ', nam prosimo pošljite e-mail na '. STORE_OWNER_EMAIL_ADDRESS . '. Prosimo opišite čim bolj podrobno vaš problem.');
   break;
   default:
   define('SUB_HEADING_TITLE','');
-  define('SUB_HEADING_TEXT','Please choose from one of the questions above.');
+  define('SUB_HEADING_TEXT','Prosimo izberite vprašnje.');
 
   }
 
-  define('TEXT_GV_REDEEM_INFO', 'Please enter your ' . TEXT_GV_NAME . ' redemption code: ');
-  define('TEXT_GV_REDEEM_ID', 'Redemption Code:');
+  define('TEXT_GV_REDEEM_INFO', 'Prosimo vnesite vašo ' . TEXT_GV_NAME . ' kodo za popust: ');
+  define('TEXT_GV_REDEEM_ID', 'Koda za popust:');
