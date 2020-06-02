@@ -7,21 +7,21 @@
  * @version $Id: product_reviews_write.php 3159 2006-03-11 01:35:04Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Reviews');
+define('NAVBAR_TITLE', 'Mnenje');
 
-define('SUB_TITLE_FROM', 'Written by:');
-define('SUB_TITLE_REVIEW', 'Please tell us what you think and share your opinions with others. Be sure to focus your comments on the product.');
-define('SUB_TITLE_RATING', 'Choose a ranking for this item. 1 star is the worst and 5 stars is the best.');
+define('SUB_TITLE_FROM', 'Napisano:');
+define('SUB_TITLE_REVIEW', 'Prosimo vas, da napišite mnenje o izdelku, fokusirajte se na karakteristike izdelka.');
+define('SUB_TITLE_RATING', 'Izberite oceno izelka. 1 zvezdica je najslabša ocena in 5 je najboljša ocena.');
 
-define('TEXT_NO_HTML', '<strong>NOTE:</strong>  HTML tags are not allowed.');
-define('TEXT_BAD', 'Worst');
-define('TEXT_GOOD', 'Best');
+define('TEXT_NO_HTML', '<strong>OPOZORILO:</strong>  HTML oznake niso dovoljene.');
+define('TEXT_BAD', 'Najslabša');
+define('TEXT_GOOD', 'Najboljša');
 define('TEXT_PRODUCT_INFO', '');
 
-define('TEXT_APPROVAL_REQUIRED', '<strong>NOTE:</strong>  Reviews require prior approval before they will be displayed');
+define('TEXT_APPROVAL_REQUIRED', '<strong>OPOZORILO:</strong>  Vsako mnenje bo preverjeno od moderatorja.');
 
-define('EMAIL_REVIEW_PENDING_SUBJECT','Product Review Pending Approval: %s');
-define('EMAIL_PRODUCT_REVIEW_CONTENT_INTRO','A Product Review for %s has been submitted and requires your approval.'."\n\n");
-define('EMAIL_PRODUCT_REVIEW_CONTENT_DETAILS','Review Details: %s');
+define('EMAIL_REVIEW_PENDING_SUBJECT','Mnenje čaka na moderatorja: %s');
+define('EMAIL_PRODUCT_REVIEW_CONTENT_INTRO','Mnenje je bilo poslano %s in ga bo moderator kmalu preveril.'."\n\n");
+define('EMAIL_PRODUCT_REVIEW_CONTENT_DETAILS','Podatki o mnenju: %s');
 
 ?>

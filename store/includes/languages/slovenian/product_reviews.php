@@ -7,8 +7,8 @@
  * @version $Id: product_reviews.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Reviews');
+define('NAVBAR_TITLE', 'Mnenja');
 define('TEXT_OF_5_STARS', '');
-define('TEXT_PRODUCT_INFO', 'Product Information');
-define('TEXT_READ_REVIEW', 'Read Review');
+define('TEXT_PRODUCT_INFO', 'Informacije o izdelku');
+define('TEXT_READ_REVIEW', 'Preberi mnenja');
 ?>
