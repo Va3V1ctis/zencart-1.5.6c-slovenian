@@ -11,10 +11,10 @@
 define('TITLE', 'Zen Cart!');
 
 // Site Tagline
-define('SITE_TAGLINE', 'The Art of E-commerce');
+define('SITE_TAGLINE', 'Umetnost e-poslovanja!');
 
 // Custom Keywords
-define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping, store');
+define('CUSTOM_KEYWORDS', 'e-poslovanje, odprta koda, trgovina, spletno nakupovanje');
 
 // Home Page Only:
   define('HOME_PAGE_META_DESCRIPTION', '');
@@ -40,7 +40,7 @@ define('CUSTOM_KEYWORDS', 'ecommerce, open source, shop, online shopping, store'
   define('META_TAG_TITLE_page_name', '');
 
 // Review Page can have a lead in:
-  define('META_TAGS_REVIEW', 'Reviews: ');
+  define('META_TAGS_REVIEW', 'Mnenja: ');
 
 // separators for meta tag definitions
 // Define Primary Section Output

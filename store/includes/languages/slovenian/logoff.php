@@ -7,8 +7,8 @@
  * @version $Id: logoff.php 6992 2007-09-13 02:54:24Z ajeh $
  */
 
-define('HEADING_TITLE', 'Log Off');
-define('NAVBAR_TITLE', 'Log Off');
-define('TEXT_MAIN', 'You have been logged off your account. It is now safe to leave the computer.<br /><br />If you had items in your cart, they have been saved. The items inside it will be restored when you <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">log back into your account</span></a>.<br />');
+define('HEADING_TITLE', 'Odjava');
+define('NAVBAR_TITLE', 'Odjavljeni ste');
+define('TEXT_MAIN', 'Odjavili ste se iz računa, sedaj je varno zapustiti ta računalnik.<br /><br />V primeru, da ste imeli izdelke v košarici, je bila vaša košarica shranjena. Ko se boste <a href="' . zen_href_link(FILENAME_LOGIN, '', 'SSL') . '"><span class="pseudolink">ponovno prijavili</span></a>, boste videli svoje izdelke v košarici.<br />');
 
 ?>

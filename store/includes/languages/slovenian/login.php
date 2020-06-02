@@ -7,31 +7,31 @@
  * @version $Id: login.php 14280 2009-08-29 01:33:18Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Login');
-define('HEADING_TITLE', 'Welcome, Please Sign In');
+define('NAVBAR_TITLE', 'Prijava');
+define('HEADING_TITLE', 'Pozdravljeni, prosimo prijavite se');
 
-define('HEADING_NEW_CUSTOMER', 'New? Please Provide Your Billing Information');
-define('HEADING_NEW_CUSTOMER_SPLIT', 'New Customers');
+define('HEADING_NEW_CUSTOMER', 'Nova stanka? Prosimo, da izpolnite podatke za plačilo');
+define('HEADING_NEW_CUSTOMER_SPLIT', 'Nova stanka');
 
-define('TEXT_NEW_CUSTOMER_INTRODUCTION', 'Create a customer profile with <strong>' . STORE_NAME . '</strong> which allows you to shop faster, track the status of your current orders and review your previous orders.');
-define('TEXT_NEW_CUSTOMER_INTRODUCTION_SPLIT', 'Have a PayPal account? Want to pay quickly with a credit card? Use the PayPal button below to use the Express Checkout option.');
-define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_DIVIDER', '<span class="larger">Or</span><br />');
-define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_SPLIT', 'Create a Customer Profile with <strong>' . STORE_NAME . '</strong> which allows you to shop faster, track the status of your current orders, review your previous orders and take advantage of our other member\'s benefits.');
+define('TEXT_NEW_CUSTOMER_INTRODUCTION', 'Ustvarite račun pri <strong>' . STORE_NAME . '</strong> s katerim bo vaše kupovanje hitrejše in udobnejše.');
+define('TEXT_NEW_CUSTOMER_INTRODUCTION_SPLIT', 'Imate PayPal račun? Bi radi hitro plačali s kreditno kartico? Prosimo prijavite se in uporabite možnost hitrega nakupa.');
+define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_DIVIDER', '<span class="larger">ali</span><br />');
+define('TEXT_NEW_CUSTOMER_POST_INTRODUCTION_SPLIT', 'Ustvarite račun pri <strong>' . STORE_NAME . '</strong> s katerim bo vaše kupovanje hitrejše in udobnejše.');
 
-define('HEADING_RETURNING_CUSTOMER', 'Returning Customers: Please Log In');
-define('HEADING_RETURNING_CUSTOMER_SPLIT', 'Returning Customers');
+define('HEADING_RETURNING_CUSTOMER', 'Že imate račun: Prosimo prijavite se.');
+define('HEADING_RETURNING_CUSTOMER_SPLIT', 'Stranke, ki že imajo račun pri nas');
 
-define('TEXT_RETURNING_CUSTOMER_SPLIT', 'In order to continue, please login to your <strong>' . STORE_NAME . '</strong> account.');
+define('TEXT_RETURNING_CUSTOMER_SPLIT', 'Da bi končali nakup se prosimo prijavite v <strong>' . STORE_NAME . '</strong> račun.');
 
-define('TEXT_PASSWORD_FORGOTTEN', 'Forgot your password?');
+define('TEXT_PASSWORD_FORGOTTEN', 'Ste pozabili svoje geslo?');
 
-define('TEXT_LOGIN_ERROR', 'Error: Sorry, there is no match for that email address and/or password.');
-define('TEXT_VISITORS_CART', '<strong>Note:</strong> If you have shopped with us before and left something in your cart, for your convenience, the contents will be merged if you log back in. <a href="javascript:session_win();">[More Info]</a>');
+define('TEXT_LOGIN_ERROR', 'NAPAKA: Geslo in e-mail se ne ujemate, prosimo poskusite znova.');
+define('TEXT_VISITORS_CART', '<strong>OPOZORILO:</strong> V primeru, da ste že kupovali in pustili izdelke v košarici jih bom sedaj združili z vašo košarico, prosimo preverite vsebino košarice. <a href="javascript:session_win();">[Več informacij]</a>');
 
-define('TABLE_HEADING_PRIVACY_CONDITIONS', '<span class="privacyconditions">Privacy Statement</span>');
-define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', '<span class="privacydescription">Please acknowledge you agree with our privacy statement by ticking the following box. The privacy statement can be read</span> <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">here</span></a>.');
-define('TEXT_PRIVACY_CONDITIONS_CONFIRM', '<span class="privacyagree">I have read and agreed to your privacy statement.</span>');
+define('TABLE_HEADING_PRIVACY_CONDITIONS', '<span class="privacyconditions">Politika zasebnosti</span>');
+define('TEXT_PRIVACY_CONDITIONS_DESCRIPTION', '<span class="privacydescription">Prosimo, da označite, da se strinjate z našo politiko zasebnosti. Našo politiko zasebnosti lahko</span> <a href="' . zen_href_link(FILENAME_PRIVACY, '', 'SSL') . '"><span class="pseudolink">preberete tukaj</span></a>.');
+define('TEXT_PRIVACY_CONDITIONS_CONFIRM', '<span class="privacyagree">Prebral sem in se strinjal s politiko zasebnosti</span>');
 
-define('ERROR_SECURITY_ERROR', 'There was a security error when trying to login.');
+define('ERROR_SECURITY_ERROR', 'Zgodila se je napaka pri prijavi, prosimo prijavite se ponovno.');
 
-define('TEXT_LOGIN_BANNED', 'Error: Access denied.');
+define('TEXT_LOGIN_BANNED', 'NAPAKA: Prosimo, prijavite se.');
