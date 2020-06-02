@@ -19,14 +19,14 @@
 // +----------------------------------------------------------------------+
 // $Id: whos_online.php 1969 2005-09-13 06:57:21Z drbyte $
 //
-define('BOX_HEADING_WHOS_ONLINE', 'Who\'s Online');
-define('BOX_WHOS_ONLINE_THEREIS', 'There currently is');
-define('BOX_WHOS_ONLINE_THEREARE', 'There currently are');
-define('BOX_WHOS_ONLINE_GUEST', 'guest');
-define('BOX_WHOS_ONLINE_GUESTS', 'guests');
-define('BOX_WHOS_ONLINE_AND', 'and');
-define('BOX_WHOS_ONLINE_MEMBER', 'member');
-define('BOX_WHOS_ONLINE_MEMBERS', 'members');
+define('BOX_HEADING_WHOS_ONLINE', 'Kdo je na strani');
+define('BOX_WHOS_ONLINE_THEREIS', 'Trenutno je');
+define('BOX_WHOS_ONLINE_THEREARE', 'Trenutno so');
+define('BOX_WHOS_ONLINE_GUEST', 'gost');
+define('BOX_WHOS_ONLINE_GUESTS', 'gostov');
+define('BOX_WHOS_ONLINE_AND', 'in');
+define('BOX_WHOS_ONLINE_MEMBER', 'registriran uporabnik');
+define('BOX_WHOS_ONLINE_MEMBERS', 'registriranih uporabnikov');
 
-define('BOX_WHOS_ONLINE_ONLINE', 'online.');
+define('BOX_WHOS_ONLINE_ONLINE', 'na strani.');
 ?>

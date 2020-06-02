@@ -20,8 +20,8 @@
 // $Id: shippinginfo.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Shipping &amp; Returns');
-define('HEADING_TITLE', 'Shipping &amp; Returns');
+define('NAVBAR_TITLE', 'Dostava pošiljk');
+define('HEADING_TITLE', 'Dostava pošiljk');
 
-define('TEXT_INFORMATION', 'Your Shipping &amp; Returns policy should be added here.');
+define('TEXT_INFORMATION', '');
 ?>

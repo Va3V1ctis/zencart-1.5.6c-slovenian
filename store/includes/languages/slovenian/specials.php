@@ -7,5 +7,5 @@
  * @version $Id: Author: DrByte  Sun Oct 18 01:26:46 2015 -0400 Modified in v1.5.5 $
  */
 
-define('NAVBAR_TITLE', 'Specials');
-define('HEADING_TITLE', 'Specials');
+define('NAVBAR_TITLE', 'Izdelki v akciji');
+define('HEADING_TITLE', 'Izdelki v akciji');

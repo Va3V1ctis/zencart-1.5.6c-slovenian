@@ -7,13 +7,13 @@
  * @version $Id: time_out.php 3027 2006-02-13 17:15:51Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Login Time Out');
-define('HEADING_TITLE', 'Whoops! Your session has expired.');
-define('HEADING_TITLE_LOGGED_IN', 'Whoops! Sorry, but you are not allowed to perform the action requested. ');
-define('TEXT_INFORMATION', '<p>If you were placing an order, please login and your shopping cart will be restored. You may then go back to the checkout and complete your final purchases.</p><p>If you had completed an order and wish to review it' . (DOWNLOAD_ENABLED == 'true' ? ', or had a download and wish to retrieve it' : '') . ', please go to your <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">My Account</a> page to view your order.</p>');
+define('NAVBAR_TITLE', 'Vaša prijava je potekla');
+define('HEADING_TITLE', 'Opozorilo! Vaša seja je potekla.');
+define('HEADING_TITLE_LOGGED_IN', 'Opozorilo! Vaša seja je potekla in vaše želje ne moremo izpolniti. ');
+define('TEXT_INFORMATION', '<p>V primeru, da ste bili v procesu nakupa, vas prosimo, da se ponovno prijavite in vaša košarica bo obnovljena. Ko se boste ponovno prijavili boste lahko končali nakup.</p><p>V primeru, da ste že končali nakup in ga želite preveriti' . (DOWNLOAD_ENABLED == 'true' ? ', ali želite dolpotegniti željeno vsebino' : '') . ', vas prosimo, da pojdite na stran <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '">Moj račun</a> in preglejte vaše naročilo.</p>');
 
-define('TEXT_INFORMATION_LOGGED_IN', 'You are still logged in to your account and may continue shopping. Please choose a destination from a menu.');
+define('TEXT_INFORMATION_LOGGED_IN', 'Še vedno ste prijavljeni, lahko nadaljujte navigacijo po naši trgovini.');
 
-define('HEADING_RETURNING_CUSTOMER', 'Login');
-define('TEXT_PASSWORD_FORGOTTEN', 'Forgot Your Password?')
+define('HEADING_RETURNING_CUSTOMER', 'Prijava');
+define('TEXT_PASSWORD_FORGOTTEN', 'Pozabil(a) sem geslo?')
 ?>

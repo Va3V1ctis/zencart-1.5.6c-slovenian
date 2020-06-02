@@ -7,10 +7,10 @@
  * @version $Id: Author: DrByte  Sun Oct 18 01:26:46 2015 -0400 Modified in v1.5.5 $
  */
 
-define('NAVBAR_TITLE', 'Reviews');
-define('HEADING_TITLE', 'Reviews');
+define('NAVBAR_TITLE', 'Mnenja');
+define('HEADING_TITLE', 'Mnenja');
 
 define('TEXT_OF_5_STARS', '');
 
-define('TEXT_PRODUCT_INFO', 'Product Information');
-define('TEXT_READ_REVIEW', 'Read Review');
+define('TEXT_PRODUCT_INFO', 'Podatki o izdelku');
+define('TEXT_READ_REVIEW', 'Preberi mnenje');
