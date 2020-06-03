@@ -8,17 +8,17 @@
  */
 
 // define the icon images used in the project
-define('ICON_IMAGE_ERROR', 'error.png');
-define('ICON_IMAGE_WARNING', 'warning.png');
-define('ICON_IMAGE_SUCCESS', 'success.png');
-define('ICON_IMAGE_TRASH', 'small_delete.png');
-define('ICON_IMAGE_UPDATE', 'button_update_cart.png');
+define('ICON_IMAGE_ERROR', 'error.gif');
+define('ICON_IMAGE_WARNING', 'warning.gif');
+define('ICON_IMAGE_SUCCESS', 'success.gif');
+define('ICON_IMAGE_TRASH', 'small_delete.gif');
+define('ICON_IMAGE_UPDATE', 'button_update_cart.gif');
 define('ICON_IMAGE_TINYCART', 'cart.gif');
 
 //alt tags for buttons
-define('ICON_ERROR_ALT', 'Error');
-define('ICON_SUCCESS_ALT', 'Success');
-define('ICON_WARNING_ALT', 'Warning');
-define('ICON_TRASH_ALT', 'Delete this item from the cart by clicking this icon.');
-define('ICON_UPDATE_ALT', 'Change your quantity by highlighting the number in the box, correcting the quantity and clicking this button.');
-define('ICON_TINYCART_ALT', 'Add this product to your cart by clicking here.');
+define('ICON_ERROR_ALT', 'Napaka');
+define('ICON_SUCCESS_ALT', 'Uspeh');
+define('ICON_WARNING_ALT', 'Opozorilo');
+define('ICON_TRASH_ALT', 'Odstranite ta izdelek iz košarice.');
+define('ICON_UPDATE_ALT', 'Spremenite število izdelkov in posodbite košarico.');
+define('ICON_TINYCART_ALT', 'Dodaj ta izdelek.');

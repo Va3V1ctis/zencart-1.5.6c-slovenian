@@ -1,24 +1,24 @@
 <?php
 /**
  * @package languageDefines
- * @copyright Copyright 2003-2016 Zen Cart Development Team
+ * @copyright Copyright 2003-2006 Zen Cart Development Team
  * @copyright Portions Copyright 2003 osCommerce
  * @license http://www.zen-cart.com/license/2_0.txt GNU Public License V2.0
- * @version $Id: picaflor-azul Sun Dec 13 16:46:52 2015 -0500 New in v1.5.5 $
+ * @version $Id: index.php 19537 2011-09-20 17:14:44Z drbyte $
  */
 
-define('TEXT_MAIN','This is the main define statement for the page for english when no template defined file exists. It is located in: <strong>/includes/languages/english/index.php</strong>');
+define('TEXT_MAIN','');
 
 // Showcase vs Store
 if (STORE_STATUS == '0') {
-  define('TEXT_GREETING_GUEST', 'Welcome <span class="greetUser">Guest!</span> Would you like to <a href="%s">log yourself in</a>?');
+  define('TEXT_GREETING_GUEST', 'Pozdravljeni <span class="greetUser">Gost!</span> Bi se radi <a href="%s">prijavili</a>?');
 } else {
-  define('TEXT_GREETING_GUEST', 'Welcome, please enjoy our online showcase.');
+  define('TEXT_GREETING_GUEST', 'Pozdravljeni, prosimo uživajte v naših izdelkih!');
 }
 
-define('TEXT_GREETING_PERSONAL', 'Hello <span class="greetUser">%s</span>! Would you like to see our <a href="%s">newest additions</a>?');
+define('TEXT_GREETING_PERSONAL', 'Pozdravljeni <span class="greetUser">%s</span>! Bi radi videli naše <a href="%s">nove izdelke</a>?');
 
-define('TEXT_INFORMATION', 'Define your main Index page copy here.');
+define('TEXT_INFORMATION', '');
 
 //moved to english
 //define('TABLE_HEADING_FEATURED_PRODUCTS','Featured Products');
@@ -29,30 +29,30 @@ define('TEXT_INFORMATION', 'Define your main Index page copy here.');
 
 if ( ($category_depth == 'products') || (zen_check_url_get_terms()) ) {
   // This section deals with product-listing page contents
-  define('HEADING_TITLE', 'Available Products');
-  define('TABLE_HEADING_IMAGE', '');
+  define('HEADING_TITLE', 'Izdelki na zalogi');
+  define('TABLE_HEADING_IMAGE', 'Slika izdelka');
   define('TABLE_HEADING_MODEL', 'Model');
-  define('TABLE_HEADING_PRODUCTS', 'Product Name');
-  define('TABLE_HEADING_MANUFACTURER', 'Manufacturer');
-  define('TABLE_HEADING_QUANTITY', 'Quantity');
-  define('TABLE_HEADING_PRICE', 'Price');
-  define('TABLE_HEADING_WEIGHT', 'Weight');
-  define('TABLE_HEADING_BUY_NOW', 'Buy Now');
-  define('TEXT_NO_PRODUCTS', 'There are no products to list in this category.');
-  define('TEXT_NO_PRODUCTS2', 'There is no product available from this manufacturer.');
-  define('TEXT_NUMBER_OF_PRODUCTS', 'Number of Products: ');
-  define('TEXT_SHOW', 'Filter Results by:');
-  define('TEXT_BUY', 'Buy 1 \'');
-  define('TEXT_NOW', '\' now');
-  define('TEXT_ALL_CATEGORIES', 'All Categories');
-  define('TEXT_ALL_MANUFACTURERS', 'All Manufacturers');
+  define('TABLE_HEADING_PRODUCTS', 'Ime izdelka');
+  define('TABLE_HEADING_MANUFACTURER', 'Proizvajalec');
+  define('TABLE_HEADING_QUANTITY', 'Količina');
+  define('TABLE_HEADING_PRICE', 'Cena');
+  define('TABLE_HEADING_WEIGHT', 'Teža');
+  define('TABLE_HEADING_BUY_NOW', 'Kupi zdaj');
+  define('TEXT_NO_PRODUCTS', 'V tej katergoriji še ni izdelkov v naši trgovini.');
+  define('TEXT_NO_PRODUCTS2', 'Od tega proizvajalce še ni izdelkov v naši trgovini.');
+  define('TEXT_NUMBER_OF_PRODUCTS', 'Število izdelkov: ');
+  define('TEXT_SHOW', 'Sortiraj rezultate:');
+  define('TEXT_BUY', 'Kupi 1 \'');
+  define('TEXT_NOW', '\' zdaj');
+  define('TEXT_ALL_CATEGORIES', 'Vse kategorije');
+  define('TEXT_ALL_MANUFACTURERS', 'Vsi proizvajalci');
 } elseif ($category_depth == 'top') {
   // This section deals with the "home" page at the top level with no options/products selected
   /*Replace this text with the headline you would like for your shop. For example: 'Welcome to My SHOP!'*/
-  define('HEADING_TITLE', 'Congratulations! You have successfully installed your Zen Cart&reg; E-Commerce Solution.');
+  define('HEADING_TITLE', '');
 } elseif ($category_depth == 'nested') {
   // This section deals with displaying a subcategory
   /*Replace this line with the headline you would like for your shop. For example: 'Welcome to My SHOP!'*/
-  define('HEADING_TITLE', 'Congratulations! You have successfully installed your Zen Cart&reg; E-Commerce Solution.'); 
+  define('HEADING_TITLE', '');
 }
 ?>
