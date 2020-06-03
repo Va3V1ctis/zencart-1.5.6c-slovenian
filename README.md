@@ -4,6 +4,10 @@ Translation of English language file of store and admin to Slovenian language (s
 
 (work still in progress)
 
+basic store translation is done (now only directories remain)
+
+admin is still in English language
+
 Based on original zen-cart english language file 
 
 https://www.zen-cart.com
