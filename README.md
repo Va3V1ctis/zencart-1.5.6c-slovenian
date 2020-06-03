@@ -11,3 +11,6 @@ admin is still in English language
 Based on original zen-cart english language file 
 
 https://www.zen-cart.com
+
+
+Everything can be used under GNU Public License V2.0
