@@ -10,16 +10,16 @@
 define('NAVBAR_TITLE_1', 'Moj račun');
 define('NAVBAR_TITLE_2', 'History');
 
-define('HEADING_TITLE', 'My Order History');
+define('HEADING_TITLE', 'Vsi nakupi');
 
-define('TEXT_ORDER_NUMBER', 'Order Number: ');
-define('TEXT_ORDER_STATUS', 'Order Status: ');
-define('TEXT_ORDER_DATE', 'Order Date: ');
-define('TEXT_ORDER_SHIPPED_TO', 'Shipped To: ');
-define('TEXT_ORDER_BILLED_TO', 'Billed To: ');
-define('TEXT_ORDER_PRODUCTS', 'Products: ');
-define('TEXT_ORDER_COST', 'Order Cost: ');
-define('TEXT_VIEW_ORDER', 'View Order');
+define('TEXT_ORDER_NUMBER', 'Številka nakupa: ');
+define('TEXT_ORDER_STATUS', 'Status nakupa: ');
+define('TEXT_ORDER_DATE', 'Datum nakupa: ');
+define('TEXT_ORDER_SHIPPED_TO', 'Poslano: ');
+define('TEXT_ORDER_BILLED_TO', 'Plačal: ');
+define('TEXT_ORDER_PRODUCTS', 'Izdelki: ');
+define('TEXT_ORDER_COST', 'Skupaj nakup: ');
+define('TEXT_VIEW_ORDER', 'Preglej nakup');
 
-define('TEXT_NO_PURCHASES', 'You have not yet made any purchases.');
+define('TEXT_NO_PURCHASES', 'Nimate (še) nobenega nakupa.');
 ?>

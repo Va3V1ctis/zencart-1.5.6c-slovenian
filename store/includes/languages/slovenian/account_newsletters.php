@@ -8,13 +8,13 @@
  */
 
 define('NAVBAR_TITLE_1', 'Moj račun');
-define('NAVBAR_TITLE_2', 'Newsletter Subscriptions');
+define('NAVBAR_TITLE_2', 'Prijava na naše e-mail novice');
 
-define('HEADING_TITLE', 'Newsletter Subscriptions');
+define('HEADING_TITLE', 'Prijava na naše e-mail novice');
 
-define('MY_NEWSLETTERS_TITLE', 'My Newsletter Subscriptions');
-define('MY_NEWSLETTERS_GENERAL_NEWSLETTER', 'General Newsletter');
-define('MY_NEWSLETTERS_GENERAL_NEWSLETTER_DESCRIPTION', 'Including store news, new products, special offers, and other promotional announcements.');
+define('MY_NEWSLETTERS_TITLE', 'Prijava na naše e-mail novice');
+define('MY_NEWSLETTERS_GENERAL_NEWSLETTER', 'E-mail novice');
+define('MY_NEWSLETTERS_GENERAL_NEWSLETTER_DESCRIPTION', 'Obveščamo vas o novih izdelkih, spremembah cen, novi zalogi izdelkov, novih plačilnih metodah, ter rednih in izrednih popustih.');
 
-define('SUCCESS_NEWSLETTER_UPDATED', 'Your newsletter subscriptions have been updated.');
+define('SUCCESS_NEWSLETTER_UPDATED', 'Uspešno ste spremenili brezplačno naročnino na novice.');
 ?>

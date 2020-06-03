@@ -25,12 +25,12 @@ define('NAVBAR_TITLE_2', 'Naslovi');
 
 define('HEADING_TITLE', 'Moji naslovi');
 
-define('PRIMARY_ADDRESS_TITLE', 'Primary Address');
-define('PRIMARY_ADDRESS_DESCRIPTION', 'This address is used as the pre-selected shipping and billing address for orders placed on this store.<br /><br />This address is also used as the base for product and service tax calculations.');
+define('PRIMARY_ADDRESS_TITLE', 'Primarni naslov');
+define('PRIMARY_ADDRESS_DESCRIPTION', 'Ta naslov bo vedno uporabljen kot primarni naslov pri plačilih in dostavi izdelkov.<br /><br />Ta naslov uporabimo tudi za začetni izračun davkov in poštnine.');
 
-define('ADDRESS_BOOK_TITLE', 'Address Book Entries');
+define('ADDRESS_BOOK_TITLE', 'Različni vnosi');
 
-define('PRIMARY_ADDRESS', '(primary address)');
+define('PRIMARY_ADDRESS', '(primarni naslov)');
 
-define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>NOTE:</strong></span> A maximum of %s address book entries allowed.');
+define('TEXT_MAXIMUM_ENTRIES', '<span class="coming"><strong>OPOZORILO:</strong></span> Lahko shranite največ %s naslovov.');
 ?>

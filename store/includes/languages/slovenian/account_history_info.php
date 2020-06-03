@@ -10,31 +10,31 @@
 define('NAVBAR_TITLE', 'Moj račun');
 define('NAVBAR_TITLE_1', 'Moj račun');
 define('NAVBAR_TITLE_2', 'Zgodovina');
-define('NAVBAR_TITLE_3', 'Order #%s');
+define('NAVBAR_TITLE_3', 'Št. #%s');
 
-define('HEADING_TITLE', 'Order Information');
+define('HEADING_TITLE', 'Podatki o nakupu');
 
-define('HEADING_ORDER_NUMBER', 'Order #%s');
-define('HEADING_ORDER_DATE', 'Order Date:');
-define('HEADING_ORDER_TOTAL', 'Order Total:');
+define('HEADING_ORDER_NUMBER', 'Nakup #%s');
+define('HEADING_ORDER_DATE', 'Datum nakupa:');
+define('HEADING_ORDER_TOTAL', 'Nakup skupaj:');
 
-define('HEADING_DELIVERY_ADDRESS', 'Delivery Address');
-define('HEADING_SHIPPING_METHOD', 'Shipping Method');
+define('HEADING_DELIVERY_ADDRESS', 'Naslov za pošiljanje');
+define('HEADING_SHIPPING_METHOD', 'Način pošiljanja');
 
-define('HEADING_PRODUCTS', 'Products');
-define('HEADING_TAX', 'Tax');
-define('HEADING_TOTAL', 'Total');
-define('HEADING_QUANTITY', 'Qty.');
+define('HEADING_PRODUCTS', 'Izdelki');
+define('HEADING_TAX', 'Davek');
+define('HEADING_TOTAL', 'Skuapj');
+define('HEADING_QUANTITY', 'Količina');
 
-define('HEADING_BILLING_ADDRESS', 'Billing Address');
-define('HEADING_PAYMENT_METHOD', 'Payment Method');
+define('HEADING_BILLING_ADDRESS', 'Naslov plačnika');
+define('HEADING_PAYMENT_METHOD', 'Način plačila');
 
-define('HEADING_ORDER_HISTORY', 'Status History &amp; Comments');
-define('TEXT_NO_COMMENTS_AVAILABLE', 'No comments available.');
-define('TABLE_HEADING_STATUS_DATE', 'Date');
-define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Order Status');
-define('TABLE_HEADING_STATUS_COMMENTS', 'Comments');
-define('QUANTITY_SUFFIX', '&nbsp;ea.  ');
+define('HEADING_ORDER_HISTORY', 'Status naročila in komentarji');
+define('TEXT_NO_COMMENTS_AVAILABLE', 'Še ni komentarjev.');
+define('TABLE_HEADING_STATUS_DATE', 'Datum');
+define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Status naročila');
+define('TABLE_HEADING_STATUS_COMMENTS', 'Komentarji');
+define('QUANTITY_SUFFIX', '&nbsp;ie.  ');
 define('ORDER_HEADING_DIVIDER', '&nbsp;-&nbsp;');
 define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');
 ?>

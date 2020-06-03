@@ -8,27 +8,27 @@
  */
 
 define('NAVBAR_TITLE', 'Moj račun');
-define('HEADING_TITLE', 'My Account Information');
+define('HEADING_TITLE', 'Podatki o mojem računu');
 
-define('OVERVIEW_TITLE', 'Overview');
-define('OVERVIEW_SHOW_ALL_ORDERS', '(show all orders)');
-define('OVERVIEW_PREVIOUS_ORDERS', 'Previous Orders');
-define('TABLE_HEADING_DATE', 'Date');
-define('TABLE_HEADING_ORDER_NUMBER', 'No.');
-define('TABLE_HEADING_SHIPPED_TO', 'Ship To');
+define('OVERVIEW_TITLE', 'Pregled');
+define('OVERVIEW_SHOW_ALL_ORDERS', '(prikaži vsa naročila)');
+define('OVERVIEW_PREVIOUS_ORDERS', 'Prejšnja naročila');
+define('TABLE_HEADING_DATE', 'Datum');
+define('TABLE_HEADING_ORDER_NUMBER', 'Št.');
+define('TABLE_HEADING_SHIPPED_TO', 'Pošlji');
 define('TABLE_HEADING_STATUS', 'Status');
-define('TABLE_HEADING_TOTAL', 'Total');
-define('TABLE_HEADING_VIEW', 'View');
+define('TABLE_HEADING_TOTAL', 'Skupaj');
+define('TABLE_HEADING_VIEW', 'Preglej');
 
 define('MY_ACCOUNT_TITLE', 'Moj račun');
-define('MY_ACCOUNT_INFORMATION', 'View or change my account information.');
-define('MY_ACCOUNT_ADDRESS_BOOK', 'View or change entries in my address book.');
-define('MY_ACCOUNT_PASSWORD', 'Change my account password.');
+define('MY_ACCOUNT_INFORMATION', 'Preglej ali spremeni vnose.');
+define('MY_ACCOUNT_ADDRESS_BOOK', 'Preglej ali spremeni naslove.');
+define('MY_ACCOUNT_PASSWORD', 'Spremeni geslo.');
 
-define('MY_ORDERS_TITLE', 'My Orders');
-define('MY_ORDERS_VIEW', 'View the orders I have made.');
+define('MY_ORDERS_TITLE', 'Moja naročila');
+define('MY_ORDERS_VIEW', 'Preglej svoja naročila.');
 
-define('EMAIL_NOTIFICATIONS_TITLE', 'Email Notifications');
-define('EMAIL_NOTIFICATIONS_NEWSLETTERS', 'Subscribe or unsubscribe from newsletters.');
-define('EMAIL_NOTIFICATIONS_PRODUCTS', 'View or change my product notification list.');
+define('EMAIL_NOTIFICATIONS_TITLE', 'Novice preko e-maila');
+define('EMAIL_NOTIFICATIONS_NEWSLETTERS', 'Prijavi ali odjavi se na naše novice.');
+define('EMAIL_NOTIFICATIONS_PRODUCTS', 'Preglej ali spremeni novice o izdelkih.');
 ?>
