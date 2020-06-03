@@ -8,19 +8,19 @@
  */
 
 define('NAVBAR_TITLE_1', 'Nakup');
-define('NAVBAR_TITLE_2', 'Confirmation');
+define('NAVBAR_TITLE_2', 'Potrditev naročila');
 
-define('HEADING_TITLE', 'Step 3 of 3 - Order Confirmation');
+define('HEADING_TITLE', 'Korak 3 od 3 - Potrditev naročila');
 
-define('HEADING_BILLING_ADDRESS', 'Billing/Payment Information');
-define('HEADING_DELIVERY_ADDRESS', 'Delivery/Shipping Information');
-define('HEADING_SHIPPING_METHOD', 'Shipping Method:');
-define('HEADING_PAYMENT_METHOD', 'Payment Method:');
-define('HEADING_PRODUCTS', 'Shopping Cart Contents');
-define('HEADING_TAX', 'Tax');
-define('HEADING_ORDER_COMMENTS', 'Special Instructions or Order Comments');
+define('HEADING_BILLING_ADDRESS', 'Informacije o plačilu');
+define('HEADING_DELIVERY_ADDRESS', 'Informacije o dostavi');
+define('HEADING_SHIPPING_METHOD', 'Način dostave:');
+define('HEADING_PAYMENT_METHOD', 'Način plačila:');
+define('HEADING_PRODUCTS', 'Izdelki v košarici');
+define('HEADING_TAX', 'Davek');
+define('HEADING_ORDER_COMMENTS', 'Dodatne zahteve glede vašega naročila');
 // no comments entered
-define('NO_COMMENTS_TEXT', 'None');
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Final Step</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- continue to confirm your order. Thank you!');
+define('NO_COMMENTS_TEXT', 'Ni komentarjev/zahtev');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Zadnji korak</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- potrdite vaše naročilo. Najlepša hvala!');
 

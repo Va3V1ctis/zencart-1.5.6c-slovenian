@@ -26,5 +26,5 @@
 
 // header Search Button/Box Search Button
   define('HEADER_SEARCH_BUTTON','Iskanje');
-  define('HEADER_SEARCH_DEFAULT_TEXT', 'Vneski iskalni pojem');
+  define('HEADER_SEARCH_DEFAULT_TEXT', 'Vnesi iskalni pojem');
   define('SEARCH_DEFAULT_TEXT', 'iskanje');

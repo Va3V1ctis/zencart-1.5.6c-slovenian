@@ -9,19 +9,19 @@
 
 
 define('NAVBAR_TITLE_1', 'Nakup');
-define('NAVBAR_TITLE_2', 'Change Billing Address');
+define('NAVBAR_TITLE_2', 'Spremeni naslov plačnika');
 
-define('HEADING_TITLE', 'Change the Billing Information');
+define('HEADING_TITLE', 'Spremeni naslov plačnika');
 
-define('TABLE_HEADING_PAYMENT_ADDRESS', 'Billing Address');
-define('TEXT_SELECTED_PAYMENT_DESTINATION', 'This is the current billing address. Please make sure it matches the information on your credit card statement or correct it using the form below.');
-define('TITLE_PAYMENT_ADDRESS', 'Billing Address');
+define('TABLE_HEADING_PAYMENT_ADDRESS', 'Naslov plačnika');
+define('TEXT_SELECTED_PAYMENT_DESTINATION', 'Naslov plačnika je na levi strani, prosimo, da preverite, da se naslov plačnika ujema s podatki na plačilni kartici.');
+define('TITLE_PAYMENT_ADDRESS', 'Naslov plačnika');
 
-define('TEXT_SELECT_OTHER_PAYMENT_DESTINATION', 'Please select the preferred billing address if the invoice to this order is to be delivered elsewhere.');
-define('TITLE_PLEASE_SELECT', 'Change the Billing Address for This Order');
+define('TEXT_SELECT_OTHER_PAYMENT_DESTINATION', 'Izberite željeni naslov plačnika, v primeru, da se razlikuje od naslova za dostavo.');
+define('TITLE_PLEASE_SELECT', 'Spremeni naslov plačnika za ta nakup');
 
-define('TABLE_HEADING_NEW_PAYMENT_ADDRESS', '...Or Choose From Your Address Book Entries');
+define('TABLE_HEADING_NEW_PAYMENT_ADDRESS', '...Prosimo izberite željeni naslov plačnika.');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Continue</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- to payment method.');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Nadaljujte na naslednji korak</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- način plačila.');
 ?>

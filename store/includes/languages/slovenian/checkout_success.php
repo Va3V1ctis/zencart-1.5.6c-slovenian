@@ -8,47 +8,47 @@
  */
 
 define('NAVBAR_TITLE_1', 'Nakup');
-define('NAVBAR_TITLE_2', 'Success - Thank You');
+define('NAVBAR_TITLE_2', 'Uspešno ste opravili nakup - Najlepša hvala!');
 
-define('HEADING_TITLE', 'Thank You! We Appreciate your Business!');
+define('HEADING_TITLE', 'Najlepša hvala!! Hvaležni smo vam za vaš nakup!');
 
 define('TEXT_SUCCESS', '');
-define('TEXT_NOTIFY_PRODUCTS', 'Please notify me of updates to these products');
+define('TEXT_NOTIFY_PRODUCTS', 'Prosimo obvestite me o teh izdeklih');
 // Still used by some older templates
-define('TEXT_SEE_ORDERS', 'You can view your order history by going to the <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '" name="linkMyAccount">My Account</a> page and by clicking on "View All Orders".');
-define('TEXT_CONTACT_STORE_OWNER', 'Please direct any questions to customer service.');
-define('TEXT_THANKS_FOR_SHOPPING', 'Thanks for shopping with us online!');
+define('TEXT_SEE_ORDERS', 'Vaša naročila lahko vidite <a href="' . zen_href_link(FILENAME_ACCOUNT, '', 'SSL') . '" name="linkMyAccount">Moj račun</a> in "Preglej vsa naročila".');
+define('TEXT_CONTACT_STORE_OWNER', 'V primeru, da imate kakršnakoli vprašnje nam prosimo pišite!');
+define('TEXT_THANKS_FOR_SHOPPING', 'Hvala za vaš nakup!');
 
 define('TABLE_HEADING_COMMENTS', '');
 
-define('FOOTER_DOWNLOAD', 'You can also download your products at a later time at \'%s\'');
+define('FOOTER_DOWNLOAD', 'Izdelek lahko dolpognete tudi kasneje \'%s\'');
 
-define('TEXT_YOUR_ORDER_NUMBER', '<strong>Your Order Number is:</strong> ');
+define('TEXT_YOUR_ORDER_NUMBER', '<strong>Vaša številka naročila je:</strong> ');
 
-define('TEXT_CHECKOUT_LOGOFF_GUEST', 'NOTE: To complete your order, a temporary account was created. You may close this account by clicking Log Off. Clicking Log Off also ensures that your receipt and purchase information is not visible to the next person using this computer. If you wish to continue shopping, feel free! You may log off at anytime using the link at the top of the page.');
-define('TEXT_CHECKOUT_LOGOFF_CUSTOMER', 'Thank you for shopping. Please click the Log Off link to ensure that your receipt and purchase information is not visible to the next person using this computer.');
+define('TEXT_CHECKOUT_LOGOFF_GUEST', 'OPOZORILO: Za uspešno dokončanje vašega naročile je bil ustvarjen začasni račun, račun bo izbrisan, ko se boste odjavili. Ko se boste odjavili, lahko varno zapustite računalnik. Lahko pa tudi nadaljujejte svoje nakupovanje v naši trgovini.');
+define('TEXT_CHECKOUT_LOGOFF_CUSTOMER', 'Hvala za vaše nakupovanje. Prosimo, da se odjavite, da boste lahko varno zapustili ta računalnik.');
 
 
-define('HEADING_ORDER_NUMBER', 'Order #%s');
-define('HEADING_ORDER_DATE', 'Order Date:');
-define('HEADING_ORDER_TOTAL', 'Order Total:');
+define('HEADING_ORDER_NUMBER', 'Naročilo #%s');
+define('HEADING_ORDER_DATE', 'Datum naročila:');
+define('HEADING_ORDER_TOTAL', 'Skupaj naročilo:');
 
-define('HEADING_DELIVERY_ADDRESS', 'Delivery Address');
-define('HEADING_SHIPPING_METHOD', 'Shipping Method');
+define('HEADING_DELIVERY_ADDRESS', 'Naslov za pošiljanje');
+define('HEADING_SHIPPING_METHOD', 'Metoda pošiljanja');
 
-define('HEADING_PRODUCTS', 'Products');
-define('HEADING_TAX', 'Tax');
-define('HEADING_TOTAL', 'Total');
-define('HEADING_QUANTITY', 'Qty.');
+define('HEADING_PRODUCTS', 'Izdelki');
+define('HEADING_TAX', 'Davek');
+define('HEADING_TOTAL', 'Skupaj');
+define('HEADING_QUANTITY', 'Količina');
 
-define('HEADING_BILLING_ADDRESS', 'Billing Address');
-define('HEADING_PAYMENT_METHOD', 'Payment Method');
+define('HEADING_BILLING_ADDRESS', 'Naslov za plačilo');
+define('HEADING_PAYMENT_METHOD', 'Metoda plačila');
 
-define('HEADING_ORDER_HISTORY', 'Status History &amp; Comments');
-define('TEXT_NO_COMMENTS_AVAILABLE', 'No comments available.');
-define('TABLE_HEADING_STATUS_DATE', 'Date');
-define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Order Status');
-define('TABLE_HEADING_STATUS_COMMENTS', 'Comments');
-define('QUANTITY_SUFFIX', '&nbsp;ea.  ');
+define('HEADING_ORDER_HISTORY', 'Status naročila in komentarji');
+define('TEXT_NO_COMMENTS_AVAILABLE', 'Še ni komentarjev.');
+define('TABLE_HEADING_STATUS_DATE', 'Datum');
+define('TABLE_HEADING_STATUS_ORDER_STATUS', 'Status naročila');
+define('TABLE_HEADING_STATUS_COMMENTS', 'Komentarji');
+define('QUANTITY_SUFFIX', '&nbsp;ie.  ');
 define('ORDER_HEADING_DIVIDER', '&nbsp;-&nbsp;');
 define('TEXT_OPTION_DIVIDER', '&nbsp;-&nbsp;');

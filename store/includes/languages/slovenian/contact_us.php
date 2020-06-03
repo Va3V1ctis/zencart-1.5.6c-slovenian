@@ -9,15 +9,15 @@
 
 define('HEADING_TITLE', 'Kontakt');
 define('NAVBAR_TITLE', 'Kontakt');
-define('TEXT_SUCCESS', 'Your message has been successfully sent.');
-define('EMAIL_SUBJECT', 'Website Inquiry from ' . STORE_NAME);
+define('TEXT_SUCCESS', 'Vaše sporočilo je bilo uspešno poslano.');
+define('EMAIL_SUBJECT', 'Sporočilo poslano: ' . STORE_NAME);
 
-define('ENTRY_NAME', 'Full Name:');
-define('ENTRY_EMAIL', 'Email Address:');
-define('ENTRY_ENQUIRY', 'Message:');
+define('ENTRY_NAME', 'Ime:');
+define('ENTRY_EMAIL', 'E-mail:');
+define('ENTRY_ENQUIRY', 'Sporočilo:');
 
-define('SEND_TO_TEXT','Send Email To:');
-define('ENTRY_EMAIL_NAME_CHECK_ERROR','Sorry, is your name correct? Our system requires a minimum of ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' characters. Please try again.');
-define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','Did you forget your message? We would like to hear from you. You can type your comments in the text area below.');
+define('SEND_TO_TEXT','Pošljite e-mail:');
+define('ENTRY_EMAIL_NAME_CHECK_ERROR','Je vaše ime pravilno, sistem zahteva vsaj ' . ENTRY_FIRST_NAME_MIN_LENGTH . ' znakov. Prosimo poskusite znova.');
+define('ENTRY_EMAIL_CONTENT_CHECK_ERROR','Ste pozabili vaše sporočilo, sporočilo vpišite v naslednje polje.');
 
-define('NOT_LOGGED_IN_TEXT', 'Not logged in');
+define('NOT_LOGGED_IN_TEXT', 'Niste prijavljeni');

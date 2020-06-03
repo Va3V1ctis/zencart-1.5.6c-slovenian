@@ -7,26 +7,26 @@
  * @version $Id: checkout_shipping_address.php 2315 2005-11-07 08:41:46Z drbyte $
  */
 
-define('NAVBAR_TITLE', 'Change Shipping Address');
+define('NAVBAR_TITLE', 'Spremeni naslov za dostavo');
 define('NAVBAR_TITLE_1', 'Nakup');
-define('NAVBAR_TITLE_2', 'Change Shipping Address');
+define('NAVBAR_TITLE_2', 'Spremeni naslov za dostavo');
 
-define('HEADING_TITLE', 'Change the Shipping Address');
+define('HEADING_TITLE', 'Spremeni naslov za dostavo');
 
-define('TABLE_HEADING_SHIPPING_ADDRESS', 'Shipping Address');
-define('TITLE_SHIPPING_ADDRESS', 'Current Shipping Address');
+define('TABLE_HEADING_SHIPPING_ADDRESS', 'Naslov za dostavo');
+define('TITLE_SHIPPING_ADDRESS', 'Trenutni naslov za dostavo');
 
-define('TABLE_HEADING_ADDRESS_BOOK_ENTRIES', '...Or Choose From Your Address Book Entries');
-define('TITLE_PLEASE_SELECT', 'Change the Shipping Address for This Order');
+define('TABLE_HEADING_ADDRESS_BOOK_ENTRIES', '...ali izberite vaš naslov iz že obstoječih naslovov');
+define('TITLE_PLEASE_SELECT', 'Spremeni naslov za dostavo');
 
-define('TABLE_HEADING_NEW_SHIPPING_ADDRESS', 'New Shipping Address');
-define('TEXT_CREATE_NEW_SHIPPING_ADDRESS', 'Please use the following form to create a new shipping address for use with this order.');
-define('TEXT_SELECT_OTHER_SHIPPING_DESTINATION', 'Please select the preferred shipping address if this order is to be delivered elsewhere.');
+define('TABLE_HEADING_NEW_SHIPPING_ADDRESS', 'Novi naslov za dostavo');
+define('TEXT_CREATE_NEW_SHIPPING_ADDRESS', 'Prosimo uporabite to možnost za dodajanje novega naslova za dostavo.');
+define('TEXT_SELECT_OTHER_SHIPPING_DESTINATION', 'Prosimo izberite željeni naslov za dostavo.');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Continue</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- to shipping method.');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Napredujte na naslednji korak</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- način dostave.');
 
-define('SET_AS_PRIMARY', 'Set as Primary Address');
-define('NEW_ADDRESS_TITLE', 'Enter new address');
+define('SET_AS_PRIMARY', 'Dodaj kot primarni naslov');
+define('NEW_ADDRESS_TITLE', 'Vnesi novi naslov');
 
 ?>

@@ -7,30 +7,30 @@
  * @version $Id: Author: DrByte  Modified in v1.5.5 $
  */
 
-define('NAVBAR_TITLE_1', 'Nakup - Step 1');
-define('NAVBAR_TITLE_2', 'Payment Method - Step 2');
+define('NAVBAR_TITLE_1', 'Nakup - Korak 1');
+define('NAVBAR_TITLE_2', 'Način plačila - Korak 2');
 
-define('HEADING_TITLE', 'Step 2 of 3 - Payment Information');
+define('HEADING_TITLE', 'Korak 2 od 3 - Podatki o plačilu');
 
-define('TABLE_HEADING_BILLING_ADDRESS', 'Billing Address');
-define('TEXT_SELECTED_BILLING_DESTINATION', 'Your billing address is shown to the left. The billing address should match the address on your credit card statement. You can change the billing address by clicking the <em>Change Address</em> button.');
-define('TITLE_BILLING_ADDRESS', 'Billing Address:');
+define('TABLE_HEADING_BILLING_ADDRESS', 'Naslov plačnika');
+define('TEXT_SELECTED_BILLING_DESTINATION', 'Vaše naslov načnika je naveden na levi strani, prosimo, da se naslov plačnika ujema s podatki na kreditni kartici, naslov lahko tudi spremenite s klikom na <em>Spremeni naslov</em>.');
+define('TITLE_BILLING_ADDRESS', 'Naslov plačnika:');
 
-define('TABLE_HEADING_PAYMENT_METHOD', 'Payment Method');
-define('TEXT_SELECT_PAYMENT_METHOD', 'Please select a payment method for this order.');
-define('TITLE_PLEASE_SELECT', 'Please Select');
+define('TABLE_HEADING_PAYMENT_METHOD', 'Način plačila');
+define('TEXT_SELECT_PAYMENT_METHOD', 'Prosimo izberite način plačila za ta nakup.');
+define('TITLE_PLEASE_SELECT', 'Prosimo izberite');
 define('TEXT_ENTER_PAYMENT_INFORMATION', '');
-define('TABLE_HEADING_COMMENTS', 'Special Instructions or Order Comments');
+define('TABLE_HEADING_COMMENTS', 'Dodatne zahteve glede vašega naročila');
 
-define('TITLE_NO_PAYMENT_OPTIONS_AVAILABLE', 'Not Available At This Time');
-define('TEXT_NO_PAYMENT_OPTIONS_AVAILABLE','<span class="alert">Sorry, we are not accepting payments from your region at this time.</span><br />Please contact us for alternate arrangements.');
+define('TITLE_NO_PAYMENT_OPTIONS_AVAILABLE', 'Ni na voljo ob tem času');
+define('TEXT_NO_PAYMENT_OPTIONS_AVAILABLE','<span class="alert">Na žalost ne sprejememamo plačil iz vaše regijo.</span><br />Za več informacij ali za alternativno dostavno nam prosim pišite.');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Continue to Step 3</strong>');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- to confirm your order.');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', '<strong>Nadaljujte na korak 3</strong>');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- da potrdite vaše naročilo.');
 
-define('TABLE_HEADING_CONDITIONS', '<span class="termsconditions">Terms and Conditions</span>');
-define('TEXT_CONDITIONS_DESCRIPTION', '<span class="termsdescription">Please acknowledge the terms and conditions bound to this order by ticking the following box. The terms and conditions can be read <a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '" target="_blank"><span class="pseudolink">here</span></a>.</span>');
-define('TEXT_CONDITIONS_CONFIRM', '<span class="termsiagree">I have read and agreed to the terms and conditions bound to this order.</span>');
+define('TABLE_HEADING_CONDITIONS', '<span class="termsconditions">Splošni pogoji poslovanja</span>');
+define('TEXT_CONDITIONS_DESCRIPTION', '<span class="termsdescription">Prosimo, da se strinjate z našimi splošnimi pogoji poslovanja. Splošne pogoje poslovanja lahko <a href="' . zen_href_link(FILENAME_CONDITIONS, '', 'SSL') . '" target="_blank"><span class="pseudolink">preberete tukaj</span></a>.</span>');
+define('TEXT_CONDITIONS_CONFIRM', '<span class="termsiagree">Prebral sem in se strinjam z splošnimi pogoji poslovanja.</span>');
 
-define('TEXT_CHECKOUT_AMOUNT_DUE', 'Total Amount Due: ');
-define('TEXT_YOUR_TOTAL','Your Total');
+define('TEXT_CHECKOUT_AMOUNT_DUE', 'Skupaj za plačilo: ');
+define('TEXT_YOUR_TOTAL','Skupaj');

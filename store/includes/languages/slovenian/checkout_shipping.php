@@ -8,28 +8,28 @@
  */
 
 define('NAVBAR_TITLE_1', 'Nakup');
-define('NAVBAR_TITLE_2', 'Shipping Method');
+define('NAVBAR_TITLE_2', 'Način dostave');
 
-define('HEADING_TITLE', 'Step 1 of 3 - Delivery Information');
+define('HEADING_TITLE', 'Korak 1 od 3 - Informacije o dostavi');
 
-define('TABLE_HEADING_SHIPPING_ADDRESS', 'Shipping Address');
-define('TEXT_CHOOSE_SHIPPING_DESTINATION', 'Your order will be shipped to the address at the left or you may change the shipping address by clicking the <em>Change Address</em> button.');
-define('TITLE_SHIPPING_ADDRESS', 'Shipping Information:');
+define('TABLE_HEADING_SHIPPING_ADDRESS', 'Naslov za dostavo');
+define('TEXT_CHOOSE_SHIPPING_DESTINATION', 'Vaše naročilo bo dostavljeno na izbran naslov na levi, naslov lahko tudi spremenite s klikom na <em>Spremeni naslov</em>.');
+define('TITLE_SHIPPING_ADDRESS', 'Informacije o dostavi:');
 
-define('TABLE_HEADING_SHIPPING_METHOD', 'Shipping Method:');
-define('TEXT_CHOOSE_SHIPPING_METHOD', 'Please select the preferred shipping method to use on this order.');
-define('TITLE_PLEASE_SELECT', 'Please Select');
-define('TEXT_ENTER_SHIPPING_INFORMATION', 'This is currently the only shipping method available to use on this order.');
-define('TITLE_NO_SHIPPING_AVAILABLE', 'Not Available At This Time');
-define('TEXT_NO_SHIPPING_AVAILABLE','<span class="alert">Sorry, we are not shipping to your region at this time.</span><br />Please contact us for alternate arrangements.');
+define('TABLE_HEADING_SHIPPING_METHOD', 'Način dostave:');
+define('TEXT_CHOOSE_SHIPPING_METHOD', 'Prosimo izberite zaželjen način dostave vašega naročila.');
+define('TITLE_PLEASE_SELECT', 'Prosimo izberite');
+define('TEXT_ENTER_SHIPPING_INFORMATION', 'Trenutno je to edina možnost za dostavo vašega naročila.');
+define('TITLE_NO_SHIPPING_AVAILABLE', 'Ni na voljo ob tem času');
+define('TEXT_NO_SHIPPING_AVAILABLE','<span class="alert">Na žalost ne pošiljamo pošiljk v vašo regijo.</span><br />Za več informacij ali za alternativno dostavno nam prosim pišite.');
 
-define('TABLE_HEADING_COMMENTS', 'Special Instructions or Comments About Your Order');
+define('TABLE_HEADING_COMMENTS', 'Dodatne zahteve glede vašega naročila');
 
-define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'Continue to Step 2');
-define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- choose your payment method.');
+define('TITLE_CONTINUE_CHECKOUT_PROCEDURE', 'Nadaljujte na naslednji korak - korak 2');
+define('TEXT_CONTINUE_CHECKOUT_PROCEDURE', '- izberite načina plačila.');
 
 // when free shipping for orders over $XX.00 is active
-define('FREE_SHIPPING_TITLE', 'Free Shipping');
-define('FREE_SHIPPING_DESCRIPTION', 'Free shipping for orders over %s');
+define('FREE_SHIPPING_TITLE', 'Zastonj dostava');
+define('FREE_SHIPPING_DESCRIPTION', 'Zastonj dostava za naročila nad %s');
 
-define('ERROR_PLEASE_RESELECT_SHIPPING_METHOD', 'Your available shipping options have changed. Please re-select your desired shipping method.');
+define('ERROR_PLEASE_RESELECT_SHIPPING_METHOD', 'Možnosti za dostvo so se spremenile, prosimo ponovno izberite načni dostave vašega izdelka.');
