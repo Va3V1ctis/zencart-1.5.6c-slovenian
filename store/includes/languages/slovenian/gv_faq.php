@@ -14,7 +14,7 @@ define('TEXT_INFORMATION', '<a name="Top"></a>
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=1','NONSSL').'">Kako kupim ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=2','NONSSL').'">Kako pošljem ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=3','NONSSL').'">Kako kupujem z ' . TEXT_GV_NAMES . '</a><br />
-  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Kako vnovčim ' . TEXT_GV_NAMES . '</a><br />
+  <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=4','NONSSL').'">Kako unovčim ' . TEXT_GV_NAMES . '</a><br />
   <a href="'.zen_href_link(FILENAME_GV_FAQ,'faq_item=5','NONSSL').'">Imam težave z bonom</a><br />
 ');
 switch ($_GET['faq_item']) {
@@ -22,13 +22,13 @@ switch ($_GET['faq_item']) {
 define('SUB_HEADING_TITLE','Kako kupim ' . TEXT_GV_NAMES);
 define('SUB_HEADING_TEXT', TEXT_GV_NAMES . ' lahko kupite enako kakor ostale izdelke v naši trgovini, uporabite lahko vse različne metode.
        Ko boste kupili ' . TEXT_GV_NAME . ', bo dodan k vašemu
-       ' . TEXT_GV_NAME . ' stanju. Če že imate ' . TEXT_GV_NAME . ' stanje, videli boste, da je vaše stanje tudi v razdelku Moj račun, kjer je tudi link za pošiljanje ' . TEXT_GV_NAME . ' željeni osebi po e-mailu.');
+       ' . TEXT_GV_NAME . ' stanju. Če že imate ' . TEXT_GV_NAME . ' stanje, videli boste, da je vaše stanje tudi v razdelku "Moj račun", kjer je tudi povezava za pošiljanje ' . TEXT_GV_NAME . ' željeni osebi po e-mailu.');
   break;
   case '2':
 define('SUB_HEADING_TITLE','Kako pošljem ' . TEXT_GV_NAMES);
-define('SUB_HEADING_TEXT','Pošljete lahko ' . TEXT_GV_NAME . ' v razdelku Moj račun.
+define('SUB_HEADING_TEXT','' . TEXT_GV_NAME . ' lahko pošljete v razdelku "Moj račun".
        Ko pošljete ' . TEXT_GV_NAME . ' morate vnesti naslednje podatke:
-       Ime osebe kateri pošiljate ' . TEXT_GV_NAME . ';
+       Ime osebe, kateri  pošiljate ' . TEXT_GV_NAME . ';
        E-mail naslov osebe ' . TEXT_GV_NAME . ';
        Znesek, ki ga pošiljate (lahko pošljete tudi samo del ' . TEXT_GV_NAME . ' zneska.);
        Kratek opis bo avtomatično poslan preko e-maila;
@@ -36,13 +36,13 @@ define('SUB_HEADING_TEXT','Pošljete lahko ' . TEXT_GV_NAME . ' v razdelku Moj r
   break;
   case '3':
   define('SUB_HEADING_TITLE','Kako kupujem z ' . TEXT_GV_NAMES);
-  define('SUB_HEADING_TEXT','V primeru, da imate dobrostanje na vašem ' . TEXT_GV_NAME . ', potem lahko uporabite za nakup to stanje.
+  define('SUB_HEADING_TEXT','V primeru, da imate dobro stanje na vašem ' . TEXT_GV_NAME . ', potem lahko uporabite za nakup to stanje.
          Izberite vsoto ' . TEXT_GV_NAME . ' iz vašega stanja.
          V primeru, da vsota ne bo dovolj, boste morali izbrati tudi plačilno metodo.
-         V primeru, da je vsota dobrostanja višja kot znesek nakupa, bo ostanek vrnjen na vaše stanje ' . TEXT_GV_NAME . '.');
+         V primeru, da je vsota dobro stanja višja kot znesek nakupa, bo ostanek vrnjen na vaše stanje ' . TEXT_GV_NAME . '.');
   break;
   case '4':
-  define('SUB_HEADING_TITLE','Kako vnovčim ' . TEXT_GV_NAMES);
+  define('SUB_HEADING_TITLE','Kako unovčim ' . TEXT_GV_NAMES);
   define('SUB_HEADING_TEXT','Če ste dobili ' . TEXT_GV_NAME . ' preko e-mail, bo e-mail vseboval podatke o osebi, ki vam je poslala ' . TEXT_GV_NAME . ', skupaj s kratkim sporočilom.
          Bon lahko uporabite na naši trgovini ali v celoti pri nakupu ali pa samo del. Ostanek bo ostal na bonu.
          Prosimo, da e-mail spravite predenj opravite nakup na naši trgovini.');
