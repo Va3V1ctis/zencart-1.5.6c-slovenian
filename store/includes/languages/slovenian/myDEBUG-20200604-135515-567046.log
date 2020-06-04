@@ -1,0 +1,18 @@
+[04-Jun-2020 13:55:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function isMobile() on null in /home/arhitfki/public_html/ppeoprema.com/includes/languages/slovenian/html_includes/define_main_page.php:6
+Stack trace:
+#0 /home/arhitfki/public_html/ppeoprema.com/includes/templates/bootstrap/templates/tpl_index_default.php(32): require()
+#1 /home/arhitfki/public_html/ppeoprema.com/includes/modules/pages/index/main_template_vars.php(232): require('/home/arhitfki/...')
+#2 /home/arhitfki/public_html/ppeoprema.com/includes/templates/bootstrap/common/tpl_main_page.php(188): require('/home/arhitfki/...')
+#3 /home/arhitfki/public_html/ppeoprema.com/index.php(97): require('/home/arhitfki/...')
+#4 {main}
+  thrown in /home/arhitfki/public_html/ppeoprema.com/includes/languages/slovenian/html_includes/define_main_page.php on line 6
+
+[04-Jun-2020 13:55:15 UTC] Request URI: /, IP address: 46.182.229.161
+--> PHP Fatal error: Uncaught Error: Call to a member function isMobile() on null in /home/arhitfki/public_html/ppeoprema.com/includes/languages/slovenian/html_includes/define_main_page.php:6
+Stack trace:
+#0 /home/arhitfki/public_html/ppeoprema.com/includes/templates/bootstrap/templates/tpl_index_default.php(32): require()
+#1 /home/arhitfki/public_html/ppeoprema.com/includes/modules/pages/index/main_template_vars.php(232): require('/home/arhitfki/...')
+#2 /home/arhitfki/public_html/ppeoprema.com/includes/templates/bootstrap/common/tpl_main_page.php(188): require('/home/arhitfki/...')
+#3 /home/arhitfki/public_html/ppeoprema.com/index.php(97): require('/home/arhitfki/...')
+#4 {main}
+  thrown in /home/arhitfki/public_html/ppeoprema.com/includes/languages/slovenian/html_includes/define_main_page.php on line 6.

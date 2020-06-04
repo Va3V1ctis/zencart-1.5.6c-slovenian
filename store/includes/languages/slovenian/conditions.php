@@ -20,8 +20,8 @@
 // $Id: conditions.php 1969 2005-09-13 06:57:21Z drbyte $
 //
 
-define('NAVBAR_TITLE', 'Pogoji poslovanja');
-define('HEADING_TITLE', 'Pogoji poslovanja');
+define('NAVBAR_TITLE', 'Splošni pogoji uporabe');
+define('HEADING_TITLE', 'Pogoji uporabe spletne trgovine');
 
 define('TEXT_INFORMATION', '');
 ?>

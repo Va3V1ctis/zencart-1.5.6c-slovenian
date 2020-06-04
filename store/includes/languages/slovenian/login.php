@@ -10,8 +10,8 @@
 define('NAVBAR_TITLE', 'Prijava');
 define('HEADING_TITLE', 'Pozdravljeni, prosimo prijavite se');
 
-define('HEADING_NEW_CUSTOMER', 'Nova stanka? Prosimo, da izpolnite podatke za plačilo');
-define('HEADING_NEW_CUSTOMER_SPLIT', 'Nova stanka');
+define('HEADING_NEW_CUSTOMER', 'Nova stranka? Prosimo, da izpolnite podatke za plačilo');
+define('HEADING_NEW_CUSTOMER_SPLIT', 'Nova stranka');
 
 define('TEXT_NEW_CUSTOMER_INTRODUCTION', 'Ustvarite račun pri <strong>' . STORE_NAME . '</strong> s katerim bo vaše kupovanje hitrejše in udobnejše.');
 define('TEXT_NEW_CUSTOMER_INTRODUCTION_SPLIT', 'Imate PayPal račun? Bi radi hitro plačali s kreditno kartico? Prosimo prijavite se in uporabite možnost hitrega nakupa.');
